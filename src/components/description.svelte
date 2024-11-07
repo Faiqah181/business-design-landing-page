@@ -14,7 +14,7 @@
         justify-content: center;
         background-image: linear-gradient(
             to left,
-            #d13e99,
+            #db319a,
             #d142b9,
             #cb3ec3,
             #c33bcd,
@@ -29,6 +29,7 @@
             #4f25f9,
             #320ec1
         );
+        mask-image: linear-gradient(to top, rgba(0, 0, 0, 1) 80%, rgb(0 0 0 / 0%));
         width: 100%;
         height: 90vh;
     }
@@ -36,7 +37,6 @@
     .card span {
         color: white;
         font-size: 1.75rem;
-        font-family: cursive;
         width: 35%;
         overflow-wrap: normal;
         text-align: center;

@@ -1,12 +1,24 @@
 :root {
-  font-family:cursive;
   line-height: 1.5;
 
   color-scheme: light dark;
   color: rgba(0, 0, 0, 0.87);
-  background-color: #fbfbfb;
+  background-color: var(--background-color);
+
 
   --primary-color: red;
   --secondary-color: blue;
+  --background-color: #fbfbfb;
+  
+  --nav-height: 5rem;
+  --video-max-height: 120dvh;
 }
 
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+}
